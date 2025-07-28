@@ -167,4 +167,23 @@ body.dark-mode footer {
 .social-icons a:hover {
   color: #f39c12; /* Gold when hovered */
 }
+nav a {
+   display: inline-block;
+  padding: 12px 24px;
+  background-color: #2680ca;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #1c82ae;
+  transform: scale(1.90); /* Expand the button slightly */
+  background-color: #1f3fcc; /* Optional color change */
+}
 
