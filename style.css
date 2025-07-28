@@ -183,7 +183,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   color: #1c82ae;
-  transform: scale(1.90); /* Expand the button slightly */
+  transform: scale(1.08); /* Expand the button slightly */
   background-color: #1f3fcc; /* Optional color change */
 }
 
